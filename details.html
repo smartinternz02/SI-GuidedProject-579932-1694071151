@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body style="background-color: rgb(99, 138, 255);">
+        <h1 style="margin-left: 12.5cm; padding-top: 1cm;"><b>Input The Values For Prediction</b></h1>
+        <form action="/predict" method="POST"  style="width: 10cm; margin-left: 15cm; margin-top: 2cm;">
+
+            <div class="mb-3 mt-3">
+                <label class="form-label">Number of Adults</label>
+                <input type="number" class="form-control"name="no_of_adults">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Number of Children</label>
+                <input type="number" class="form-control" name="no_of_children">
+            </div>
+            <div class="mb-3 mt-3">
+                <label class="form-label">Number of Weekend Nights</label>
+                <input type="number" class="form-control"name="no_of_weekend_nights">
+            </div>
+            <div class="mb-3">
+                <label class="form-label"> Number of weekly nights</label>
+                <input type="number" class="form-control" name="no_of_week_nights">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Type of meal plan</label>
+                <input type="number" class="form-control" name="type_of_meal_plan">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Prking space requirement</label>
+                <input type="number" class="form-control" name="required_car_parking_space">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Room type</label>
+                <input type="number" class="form-control" name="room_type_reserved">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Lead Time</label>
+                <input type="number" class="form-control" name="lead_time">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Year of arrival</label>
+                <input type="number" class="form-control" name="arrival_year">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Month of arrival</label>
+                <input type="number" class="form-control" name="arrival_month">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">date of arrival</label>
+                <input type="number" class="form-control" name="arrival_date">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Market segment type</label>
+                <input type="number" class="form-control" name="market_segment_type">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Repeated guest</label>
+                <input type="number" class="form-control" name="repeated_guest">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Number of previous cancellations</label>
+                <input type="number" class="form-control" name="no_of_previous_cancellations">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Previous bookings not cancelled</label>
+                <input type="number" class="form-control" name="no_of_previous_bookings_not_canceled">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Average price per room</label>
+                <input type="number" class="form-control" name="avg_price_per_room">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Number of special guests</label>
+                <input type="number" class="form-control" name="no_of_special_requests">
+            </div>
+            <button type="submit" class="btn btn-success" style="margin-left: 3.5cm;">PREDICT</button>
+        </form>
+    </body>
+    
+
+        <!-- Number of adults<input type="number" name="no_of_adults">
+        <br>
+        Number of childrens<input type="number" name="no_of_children">
+        <br>
+        Number of weekend nights<input type="number" name="no_of_weekend_nights">
+        <br>
+        Number of weekly nights<input type="Text" name="no_of_week_nights">
+        <br>
+        Type of meal plan<input type="number" name="type_of_meal_plan">
+        <br>
+        Prking space requirement<input type="number" name="required_car_parking_space">
+        <br>
+        Room type<input type="number" name="room_type_reserved">
+        <br>
+        Lead Time<input type="number" name="lead_time">
+        <br>
+        Year of arrival<input type="number" name="arrival_year">
+        <br>
+        Month of arrival<input type="number" name="arrival_month">
+        <br>
+        date of arrival<input type="number" name="arrival_date">
+        <br>
+        Market segment type<input type="number" name="market_segment_type">
+        <br>
+        Repeated guest<input type="number" name="repeated_guest">
+        <br>
+        Number of previous cancellations<input type="number" name="no_of_previous_cancellations">
+        <br>
+        Previous bookings not cancelled<input type="number" name="no_of_previous_bookings_not_canceled">
+        <br>
+        Average price per room<input type="number" name="avg_price_per_room">
+        <br>
+        Number of special guests<input type="number" name="no_of_special_requests">
+        <br>
+        <input type="submit" value="predict">
+         -->
+
+    
+</html>
